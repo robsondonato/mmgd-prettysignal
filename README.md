@@ -11,15 +11,15 @@ Os dados de irradiação solar podem ser inconsistentes e cheios de "dentes", de
 
 ### Solução
 
-Com Solar Pretty Signal, esses dados caóticos são transformados em sinais suaves e claros. Nossa abordagem elimina os ruídos e irregularidades, preservando a integridade das informações essenciais do sinal original.
+Com o Solar Pretty Signal, esses dados caóticos são transformados em sinais suaves e claros. Nossa abordagem elimina os ruídos e irregularidades, preservando a integridade das informações essenciais do sinal original.
 
 ### Resultados
 
-Os resultados falam por si. Comparado aos dados brutos, o sinal filtrado oferece uma representação muito mais precisa e utilizável da geração solar. Não há mais os "dentes" perturbadores, apenas um fluxo contínuo e coerente de dados.
+Os resultados falam por si. Comparado aos dados brutos, o sinal filtrado oferece uma representação muito mais precisa e utilizável das curvas de interesse. Não há mais os "dentes" perturbadores, apenas um fluxo contínuo e coerente de dados.
 
 ### Benefícios
 
-- **Maior precisão**: Melhora significativa da qualidade dos dados para que eles possam ser utilizados em outros processos que o utilizam como entrada.
+- **Maior precisão**: Melhora significativa da qualidade dos dados para que eles possam ser utilizados em outros processos que os utilizam como entrada.
 - **Facilidade de análise**: Sinais mais claros facilitam a análise e a tomada de decisões.
 
 ### Explore o Projeto
