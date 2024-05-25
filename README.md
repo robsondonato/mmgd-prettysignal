@@ -46,18 +46,18 @@ Se você não é administrador de sua máquina, talvez, muitos desses pacotes n�
 Baixe [este](https://github.com/robsondonato/solar_prettysignal.git) repositório em seu disco local:
 
 1 - Clique em "Code" e depois em "Download ZIP".
-2 - Extraia o conteúdo do arquivo ZIP para um diretório de sua escolha. O pacote de interesse é o arquivo nomeado de *solarprettysignal_0.1.0.tar.gz*
+2 - Extraia o conteúdo do arquivo ZIP para um diretório de sua escolha. O pacote de interesse é um dos arquivos extraídos desse ZIP, que é o arquivo nomeado de *solarprettysignal_0.1.0.tar.gz*
 3 - Abra o RStudio.
 
 Para instalar o pacote **Solar Pretty Signal** localmente (isto é, instalar o arquivo *solarprettysignal_0.1.0.tar.gz*), você pode usar a linha de comando no console do RStudio:
 
 ```
-install.packages("caminho_para_o_pacote_que_esta_dentro_da_pasta_do_aquivo_zip_baixado/solar_prettysignal", repos = NULL, type = "source")
+install.packages("caminho_para_/solarprettysignal_0.1.0.tar.gz", repos = NULL, type = "source")
 ```
-Substitua "caminho_para_o_pacote_que_esta_dentro_da_pasta_do_aquivo_zip_baixado" pelo caminho onde o pacote está localizado.
+Substitua "caminho_para_o_pacote" pelo caminho onde o pacote está localizado.
 
 ### Utilizando os exemplos no RStudio
-Uma vez que o pacote está instalado, você pode acessar e executar os exemplos fornecidos. Aqui está um passo a passo para abrir um exemplo:
+Uma vez que o pacote está instalado, você já pode acessar e executar os exemplos fornecidos. Aqui está o passo a passo para abrir um exemplo:
 
 ```
 # Carregue o pacote
@@ -70,7 +70,7 @@ print(examples_names)
 # Abre o primeiro exemplo no editor do RStudio
 run_solar_prettysignal_example(examples_names[1])
 ```
-Isso abrirá um dos exemplos que vem integrado ao pacote no editor do RStudio, a partir dai você poderá visualizar e executar o código exemplo ou modificá-lo antes de executá-lo.
+Isso abrirá no editor do RStudio um dos exemplos que vem integrado ao pacote *solarprettysignal_0.1.0.tar.gz*. A partir dai você poderá visualizar e executar o código exemplo e, na sequência, customizá-lo para atender as suas necessidades.
 
 ## Status do Projeto
 > Status do Projeto: Concluído :white_check_mark:
