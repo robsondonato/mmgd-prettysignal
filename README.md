@@ -1,17 +1,17 @@
 # solar-prettysignal
 Transformando sinais ruidosos em curvas claras e precisas para Mini e Micro Geração Distribuída (MMGD).
 
-Você precisa lidar com estimativas de previsão de MMGD e, para isso, decidiu utilizar os dados de irradiação disponíveis das estações meteorológicas para fazer o cálculo da potência que foi gerada? Você até já tem a curva de potência medida de sua usina fotovoltaica e mesmo assim enxerga variações abruptas ("dentes") que prejudicam qualquer outro trabalho que necessita da entrada desses dados?
+Você não tem acesso às medições de geração fotovoltaica e precisa lidar com estimativas de MMGD. Para ter noção da potência gerada em cada horário do dia, você lança mão dos dados de irradiação solar disponíveis das estações meteorológicas e tenta levantar o montante de potência instalada para fazer o cálculo da estimativa de geração horária. Nessa hora, você descobre que os dados verificados de irradiação solar possuem algumas falhas e, muito provavelmente, o resultado final da sua estimativa não vai ficar interessante. Às vezes, você até já tem a curva medida da potência gerada pela sua usina fotovoltaica e mesmo assim enxerga variações abruptas ("dentes"). Essas variações podem ser causadas por falha na aquisição de alguns dados ou por forte ruído incorporado ao sistema de sensoriamento e isso certamente prejudica qualquer trabalho de previsão futura que necessita da entrada desses dados.
 
 Caso esteja passando por isso, conheça uma solução que resolve esses problemas: **Solar Pretty Signal**.
 
 ### O Desafio
 
-Os dados de irradiação solar podem ser inconsistentes e cheios de "dentes", devido às variações abruptas na irradiação ou falha do sistema de aquisição. Isso torna a análise precisa um desafio significativo, prejudicando a confiabilidade dos insights extraídos desses dados.
+Os dados de irradiação solar podem ser inconsistentes e cheios de "dentes", devido às variações abruptas na irradiação ou falha do sistema de aquisição. Isso torna a precisão da análise um desafio significativo, prejudicando a confiabilidade dos insights extraídos desses dados.
 
 ### Solução
 
-Com o Solar Pretty Signal, esses dados caóticos são transformados em sinais suaves e claros. Nossa abordagem elimina os ruídos e irregularidades, preservando a integridade das informações essenciais do sinal original.
+Com o Solar Pretty Signal, esses dados caóticos são transformados em sinais suaves e claros. Essa abordagem elimina os ruídos e irregularidades, preservando a integridade das informações essenciais do sinal original.
 
 ### Resultados
 
@@ -24,7 +24,9 @@ Os resultados falam por si. Comparado aos dados brutos, o sinal filtrado oferece
 
 ### Explore o Projeto
 
-Confira o código, explore o método. Nosso repositório está repleto de exemplos e documentação para que você possa implementar e adaptar a nossa solução conforme suas necessidades.
+Confira o código, explore o método. A seguir, um passo a passo de como você deve proceder para utilizar o **Solar Pretty Signal**:
+
+
 
 ---
 
