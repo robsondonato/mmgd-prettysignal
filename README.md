@@ -1,7 +1,7 @@
 # solar-prettysignal
 Transformando sinais ruidosos em curvas claras e precisas para Mini e Micro Geração Distribuída (MMGD).
 
-Você não tem acesso às medições de geração fotovoltaica e precisa lidar com estimativas de MMGD. Para ter noção da potência gerada em cada horário do dia, você lança mão dos dados de irradiação solar disponíveis das estações meteorológicas e tenta levantar o montante de potência instalada para fazer o cálculo da estimativa de geração horária. Nessa hora, você descobre que os dados verificados de irradiação solar possuem algumas falhas e, muito provavelmente, o resultado final da sua estimativa não vai ficar interessante. Às vezes, você até já tem a curva medida da potência gerada pela sua usina fotovoltaica e mesmo assim enxerga variações abruptas ("dentes"). Essas variações podem ser causadas por falha na aquisição de alguns dados ou por forte ruído incorporado ao sistema de sensoriamento e isso certamente prejudica qualquer trabalho de previsão futura que necessita da entrada desses dados.
+Você não tem acesso às medições de geração fotovoltaica e precisa lidar com estimativas de MMGD. Para estimar a potência que foi gerada em cada horário do dia, você lança mão dos dados verficados de irradiação solar disponíveis das estações meteorológicas e tenta levantar o montante de potência instalada. Nessa hora, você descobre que os dados verificados de irradiação solar possuem algumas falhas e, muito provavelmente, o resultado final da sua estimativa não vai ficar interessante. Às vezes, você até já tem a curva medida da potência gerada pela sua usina fotovoltaica e mesmo assim enxerga variações abruptas ("dentes"). Essas variações podem ser causadas por falhas na aquisição de alguns dados ou por forte ruído incorporado ao sistema de sensoriamento e isso certamente prejudica qualquer trabalho de previsão futura que necessita da entrada desses dados.
 
 Caso esteja passando por isso, conheça uma solução que resolve esses problemas: **Solar Pretty Signal**.
 
@@ -24,7 +24,7 @@ Os resultados falam por si. Comparado aos dados brutos, o sinal filtrado oferece
 
 ### Explore o Projeto
 
-Confira o código, explore o método. A seguir, um passo a passo de como você deve proceder para utilizar o **Solar Pretty Signal**:
+Explore o método. A seguir, um passo a passo de como você deve proceder para utilizar o **Solar Pretty Signal**:
 
 
 
