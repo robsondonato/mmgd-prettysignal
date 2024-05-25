@@ -46,13 +46,15 @@ Se você não é administrador de sua máquina, talvez, muitos desses pacotes n�
 Baixe [este](https://github.com/robsondonato/solar-prettysignal) repositório em seu disco local:
 
 1 - Clique em "Code" e depois em "Download ZIP".
+
 2 - Extraia o conteúdo do arquivo ZIP para um diretório de sua escolha. O pacote de interesse é um dos arquivos extraídos desse ZIP, que é o arquivo nomeado de *solarprettysignal_0.1.0.tar.gz*
+
 3 - Abra o RStudio.
 
 Para instalar o pacote **Solar Pretty Signal** localmente (isto é, instalar o arquivo *solarprettysignal_0.1.0.tar.gz*), você pode usar a linha de comando no console do RStudio:
 
 ```
-install.packages("caminho_para_/solarprettysignal_0.1.0.tar.gz", repos = NULL, type = "source")
+install.packages("caminho_para_o_pacote/solarprettysignal_0.1.0.tar.gz", repos = NULL, type = "source")
 ```
 Substitua "caminho_para_o_pacote" pelo caminho onde o pacote está localizado.
 
