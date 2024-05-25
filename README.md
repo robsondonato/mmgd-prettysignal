@@ -32,7 +32,7 @@ Explore o método. A seguir, um passo a passo de como você deve proceder para u
 ## Começando (Versão Windows)
 
 O **Solar Pretty Signal** é um pacote desenvolvido em linguagem R. Por isso, para utilizá-lo é preciso ter os seguintes programas instalados em sua máquina: 
-* [R-4.3.0]([https://cran.r-project.org/src/base/R-4/](https://cran.r-project.org/bin/windows/base/old/4.3.0/)) para viabilizar a utilização do pacote. (essa versão foi testata na versão R-4.3.0)
+* [R-4.3.0](https://cran.r-project.org/bin/windows/base/old/4.3.0/) para viabilizar a utilização do pacote. (essa versão foi testata na versão R-4.3.0)
 * [R Studio](https://posit.co/download/rstudio-desktop/) ambiente para visualizar, modificar e executar scripts em R (recomendado)
 
 Após instação concluída com sucesso, abra o terminal do seu sistema e instale os seguintes pacotes:
@@ -42,18 +42,38 @@ install.packages(c("openxlsx", "data.table", "tidyr", "dplyr", "plotly", "shiny"
 ```
 Se você não é administrador de sua máquina, talvez, muitos desses pacotes não serão instalados com sucesso. É preciso contactar o administrador de seu sistema para ele seguir os passos de instalação.
 
-Agora, 
+### Baixe o pacote Solar Pretty Signal em sua máquina local
+Baixe [este](https://github.com/robsondonato/solar_prettysignal.git) repositório em seu disco local:
 
-## Baixe o pacote Solar Pretty Signal em sua máquina local
-* Baixe [este](https://github.com/robsondonato/solar_prettysignal.git) em seu disco local
-* Aqui é preciso ensinar como fazer a instalação via R Studio bucando o pacote baixado na máquina local ou usar a linha de comando install.packages()
+1 - Clique em "Code" e depois em "Download ZIP".
+2 - Extraia o conteúdo do arquivo ZIP para um diretório de sua escolha. O pacote de interesse é o arquivo nomeado de *solarprettysignal_0.1.0.tar.gz*
+3 - Abra o RStudio.
+
+Para instalar o pacote **Solar Pretty Signal** localmente (isto é, instalar o arquivo *solarprettysignal_0.1.0.tar.gz*), você pode usar a linha de comando no console do RStudio:
+
 ```
+install.packages("caminho_para_o_pacote_que_esta_dentro_da_pasta_do_aquivo_zip_baixado/solar_prettysignal", repos = NULL, type = "source")
+```
+Substitua "caminho_para_o_pacote_que_esta_dentro_da_pasta_do_aquivo_zip_baixado" pelo caminho onde o pacote está localizado.
+
+### Utilizando os exemplos no RStudio
+Uma vez que o pacote está instalado, você pode acessar e executar os exemplos fornecidos. Aqui está um passo a passo para abrir um exemplo:
 
 ```
-Na sequência devemos ensinar como utilizar os exemplos no Rstudio.
+# Carregue o pacote
+library(solarprettysignal)
 
-> Status do Projeto: Concluído :warning: (aqui é interessante colocar um ícone que indique conclusão)
+# Lista os exemplos disponíveis
+examples_names <- list_solar_prettysignal_examples()
+print(examples_names)
 
+# Abre o primeiro exemplo no editor do RStudio
+run_solar_prettysignal_example(examples_names[1])
+```
+Isso abrirá um dos exemplos que vem integrado ao pacote no editor do RStudio, a partir dai você poderá visualizar e executar o código exemplo ou modificá-lo antes de executá-lo.
+
+## Status do Projeto
+> Status do Projeto: Concluído :white_check_mark:
 
 ---
 
