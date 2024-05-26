@@ -1,6 +1,7 @@
-.Rproj.user
-.Rhistory
-.RData
-.Ruserdata
-NAMESPACE
-DESCRIPTION
+# Ignorar todos os arquivos por padrão
+*
+
+# Exceto os arquivos que queremos manter
+!README.md
+!img/
+!*.tar.gz
