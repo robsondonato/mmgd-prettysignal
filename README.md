@@ -32,7 +32,7 @@ Explore o método. A seguir, um passo a passo de como você deve proceder para u
 ## Começando (Versão Windows)
 
 O **Solar Pretty Signal** é um pacote desenvolvido em linguagem R. Por isso, para utilizá-lo é preciso ter os seguintes programas instalados em sua máquina: 
-* [R-4.3.0](https://cran.r-project.org/bin/windows/base/old/4.3.0/) para viabilizar a utilização do pacote. (esse pacote foi desenvolvido sob a versão R-4.3.0)
+* [R-4.3.0](https://cran.r-project.org/bin/windows/base/old/4.3.0/) para viabilizar a utilização do pacote. (**Solar Pretty Signal** foi desenvolvido sob a versão R-4.3.0, ainda não foram realizados testes em versões superiores do R)
 * [R Studio](https://posit.co/download/rstudio-desktop/) ambiente para visualizar, modificar e executar scripts em R (recomendado)
 
 Após instação concluída com sucesso, abra o terminal do seu sistema e instale os seguintes pacotes:
