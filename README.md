@@ -41,7 +41,7 @@ Após instação concluída com sucesso, abra o terminal do seu sistema e instal
 install.packages(c("openxlsx", "data.table", "tidyr", "dplyr", "lubridate", "plotly", "shiny", "shinyjs"),
                   dependencies = TRUE)
 ```
-Se você não é administrador de sua máquina, talvez, muitos desses pacotes não serão instalados com sucesso. É preciso contactar o administrador de seu sistema para ele seguir os passos de instalação.
+⚠️ **Nota Importante:** Se você não é administrador de sua máquina, talvez, muitos desses pacotes não serão instalados com sucesso. É preciso contatar o administrador de seu sistema para que ele siga os passos de instalação.
 
 ### Baixe o pacote Solar Pretty Signal em sua máquina local
 Baixe [este](https://github.com/robsondonato/solar-prettysignal) repositório em seu disco local:
