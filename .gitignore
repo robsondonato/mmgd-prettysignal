@@ -1,8 +1,0 @@
-# Ignorar todos os arquivos por padrão
-*
-
-# Exceto os arquivos que queremos manter
-!.gitignore
-!README.md
-!img/
-!*.tar.gz
