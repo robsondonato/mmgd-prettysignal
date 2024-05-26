@@ -1,5 +1,5 @@
 # solar-prettysignal
-Transformando sinais ruidosos em curvas claras e precisas para Mini e Micro Geração Distribuída (MMGD).
+Transformando sinais ruidosos de Mini e Micro Geração Distribuída (MMGD) em curvas claras e precisas para .
 
 ## Contexto
 Você não tem acesso às medições de geração fotovoltaica e precisa lidar com estimativas de MMGD. Para estimar a potência que foi gerada em cada horário do dia, você lança mão dos dados verficados de irradiação solar disponíveis das estações meteorológicas e tenta levantar o montante de potência instalada. Nessa hora, você descobre que os dados verificados de irradiação solar possuem algumas falhas e, muito provavelmente, o resultado final da sua estimativa não vai ficar interessante. Às vezes, você até já tem a curva medida da potência gerada pela sua usina fotovoltaica e mesmo assim enxerga variações abruptas ("dentes"). Essas variações podem ser causadas por falhas na aquisição de alguns dados ou por forte ruído incorporado ao sistema de sensoriamento e isso certamente prejudica qualquer trabalho de previsão futura que necessita da entrada desses dados.
