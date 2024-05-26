@@ -38,7 +38,8 @@ O **Solar Pretty Signal** é um pacote desenvolvido em linguagem R. Por isso, pa
 Após instação concluída com sucesso, abra o terminal do seu sistema e instale os seguintes pacotes:
 
 ```
-install.packages(c("openxlsx", "data.table", "tidyr", "dplyr", "lubridate", "plotly", "shiny", "shinyjs"), dependencies = TRUE)
+install.packages(c("openxlsx", "data.table", "tidyr", "dplyr", "lubridate", "plotly", "shiny", "shinyjs"),
+                  dependencies = TRUE)
 ```
 Se você não é administrador de sua máquina, talvez, muitos desses pacotes não serão instalados com sucesso. É preciso contactar o administrador de seu sistema para ele seguir os passos de instalação.
 
