@@ -18,12 +18,7 @@ Com o Solar Pretty Signal, esses dados caóticos são transformados em sinais su
 
 Os resultados falam por si. Comparado aos dados brutos, o sinal filtrado oferece uma representação muito mais precisa e utilizável das curvas de interesse. Não há mais os "dentes" perturbadores, apenas um fluxo contínuo e coerente de dados.
 
-![Texto alternativo](img/exemplo.png "Texto de título opcional")
-
-<div style="display: flex; justify-content: space-around;">
-    <img src="img/exemplo.png" alt="Sinal Bruto" style="width: 45%;"/>
-    <img src="img/exemplo2.png" alt="Sinal Filtrado" style="width: 45%;"/>
-</div>
+![Texto alternativo](img/exemplo2.png "Texto de título opcional")
 
 ### Benefícios
 
