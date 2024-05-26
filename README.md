@@ -57,7 +57,7 @@ Para instalar o pacote **Solar Pretty Signal** localmente (isto é, instalar o a
 ```
 install.packages("caminho_para_o_pacote/solarprettysignal_0.1.0.tar.gz", repos = NULL, type = "source")
 ```
-Substitua "caminho_para_o_pacote" pelo caminho onde o pacote está localizado.
+Substitua *"caminho_para_o_pacote"* pelo caminho onde o pacote está localizado.
 
 ### Utilizando os exemplos no RStudio
 Uma vez que o pacote está instalado, você já pode acessar e executar os exemplos fornecidos. Aqui está o passo a passo para abrir um exemplo:
