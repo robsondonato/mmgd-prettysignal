@@ -48,14 +48,14 @@ Baixe [este](https://github.com/robsondonato/solar-prettysignal) repositório em
 
 1 - Clique em "Code" e depois em "Download ZIP".
 
-2 - Extraia o conteúdo do arquivo ZIP para um diretório de sua escolha. O pacote de interesse é um dos arquivos extraídos desse ZIP, que é o arquivo nomeado de *solarprettysignal_0.1.5.tar.gz*
+2 - Extraia o conteúdo do arquivo ZIP para um diretório de sua escolha. O pacote de interesse é um dos arquivos extraídos desse ZIP, que é o arquivo nomeado de *solarprettysignal_0.1.6.tar.gz*
 
 3 - Abra o RStudio.
 
-Para instalar o pacote **Solar Pretty Signal** localmente (isto é, instalar o arquivo *solarprettysignal_0.1.5.tar.gz*), você pode usar a linha de comando no console do RStudio:
+Para instalar o pacote **Solar Pretty Signal** localmente (isto é, instalar o arquivo *solarprettysignal_0.1.6.tar.gz*), você pode usar a linha de comando no console do RStudio:
 
 ```
-install.packages("caminho_para_o_pacote/solarprettysignal_0.1.5.tar.gz", repos = NULL, type = "source")
+install.packages("caminho_para_o_pacote/solarprettysignal_0.1.6.tar.gz", repos = NULL, type = "source")
 ```
 Substitua *"caminho_para_o_pacote"* pelo caminho onde o pacote está localizado.
 
@@ -73,7 +73,7 @@ print(examples_names)
 # Abre o primeiro exemplo no editor do RStudio
 run_solar_prettysignal_example(examples_names[1])
 ```
-Isso abrirá no editor do RStudio um dos exemplos que vem integrado ao pacote *solarprettysignal_0.1.5.tar.gz*. A partir dai você poderá visualizar e executar o código exemplo e, na sequência, customizá-lo para atender as suas necessidades.
+Isso abrirá no editor do RStudio um dos exemplos que vem integrado ao pacote *solarprettysignal_0.1.6.tar.gz*. A partir dai você poderá visualizar e executar o código exemplo e, na sequência, customizá-lo para atender as suas necessidades.
 
 ## Status do Projeto
 > Status do Projeto: Concluído :white_check_mark:
