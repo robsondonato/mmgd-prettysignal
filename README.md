@@ -60,7 +60,26 @@ install.packages("caminho_para_o_pacote/solarprettysignal_0.1.6.tar.gz", repos =
 Substitua *"caminho_para_o_pacote"* pelo caminho onde o pacote está localizado.
 
 ### Utilizando os exemplos no RStudio
-Uma vez que o pacote está instalado, você já pode acessar e executar os exemplos fornecidos. Aqui está o passo a passo para abrir um exemplo:
+Uma vez que o pacote está instalado, você já pode acessar e executar os exemplos fornecidos. Aconselho utilizar uma aplicação web pronta que vem integrado ao pacote *solarprettysignal_0.1.6.tar.gz*. Para isso, basta executar essas linhas de comando no console do RStudio:
+
+```
+library(shiny)
+library(solarprettysignal)
+
+interface_exemplo <- solarprettysignal::list_solar_prettysignal_examples()[1]
+file_path <- system.file("examples", 
+                         paste0(interface_exemplo), 
+                         package = "solarprettysignal")
+runApp(file_path)
+```
+
+No seu navegador deve ser abri uma aba com a seguinte interface:
+
+![Texto alternativo](img/app_example.png "")
+
+Baixe o template, siga o preenchimento dos seus dados nas colunas do arquivo de template (*por favor, não renomeie as colunas do template*) e carregue-o na aplicação a partir do componente de busca da interface. Prontinho! Em poucos segundos suas curvas estarão tratadas. Baixe todos os dados tratados clicando no botao de download. 
+
+Caso prefira lidar com os dados sem interface gráfica, os exemplos 2 e 3 mostram como fazer isso.
 
 ```
 # Carregue o pacote
@@ -70,10 +89,10 @@ library(solarprettysignal)
 examples_names <- list_solar_prettysignal_examples()
 print(examples_names)
 
-# Abre o primeiro exemplo no editor do RStudio
-run_solar_prettysignal_example(examples_names[1])
+# Abre o segundo exemplo no editor do RStudio
+run_solar_prettysignal_example(examples_names[2]) #veja também examples_names[3]
 ```
-Isso abrirá no editor do RStudio um dos exemplos que vem integrado ao pacote *solarprettysignal_0.1.6.tar.gz*. A partir dai você poderá visualizar e executar o código exemplo e, na sequência, customizá-lo para atender as suas necessidades.
+Isso abrirá no editor do RStudio p segundo exemplo que vem integrado ao pacote *solarprettysignal_0.1.6.tar.gz*. A partir dai você poderá visualizar e executar o código exemplo e, na sequência, customizá-lo para atender as suas necessidades.
 
 ## Status do Projeto
 > Status do Projeto: Concluído :white_check_mark:
